@@ -9,7 +9,6 @@ import ProgressTracker from './components/ProgressTracker';
 import DonationSection from './components/DonationSection';
 import BlogList from './components/BlogList';
 import BlogPost from './components/BlogPost';
-import InstagramFeed from './components/InstagramFeed';
 import ContactForm from './components/ContactForm';
 
 // Styles
@@ -62,7 +61,6 @@ function App() {
             <ProgressTracker />
             <DonationSection />
             <BlogList onPostClick={handlePostClick} />
-            <InstagramFeed />
             <ContactForm />
             
             <footer className="bg-stone-900 text-stone-500 py-10 text-center text-sm border-t border-stone-800">
