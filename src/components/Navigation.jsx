@@ -35,11 +35,11 @@ const Navigation = ({ activeSection, onNavigate }) => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <button 
           onClick={() => handleNavClick('hero')} 
-          className={`text-2xl font-serif font-bold tracking-wider transition-colors duration-300 ${
-            isScrolled ? 'text-stone-900 hover:text-primary' : 'text-white hover:text-stone-200'
-          }`}
+          className="text-2xl font-serif font-bold tracking-wider transition-all duration-300 logo-container"
         >
-          KAMEN PO KAMEN
+          <span className={isScrolled ? 'text-stone-900' : 'text-white'}>KAMEN</span>
+          <span className={isScrolled ? 'text-primary' : 'text-primary-light'}>PO</span>
+          <span className={isScrolled ? 'text-stone-900' : 'text-white'}>KAMEN</span>
         </button>
 
         {/* Desktop Menu */}

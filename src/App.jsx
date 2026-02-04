@@ -66,7 +66,7 @@ function App() {
             <footer className="bg-stone-900 text-stone-500 py-10 text-center text-sm border-t border-stone-800">
                <div className="container mx-auto px-6">
                  <p className="mb-2">&copy; {new Date().getFullYear()} Kamen po kamen.</p>
-                 <p className="text-xs text-stone-600">Built with ❤️ & javascript</p>
+                 <p className="text-xs text-stone-600">U suradnji sa <a href="https://www.webica.hr/" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-primary/80 transition-colors">webica.hr</a></p>
                </div>
             </footer>
           </div>

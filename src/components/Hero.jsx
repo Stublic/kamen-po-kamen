@@ -23,8 +23,8 @@ const Hero = ({ onNavigate }) => {
           <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-sm uppercase tracking-widest mb-6 bg-white/10 backdrop-blur-sm text-white">
             Renovacija u tijeku
           </span>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg text-white">
-            Od starine <br className="hidden md:block" /> do doma.
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg text-white">
+            Kupili smo kuću u <br></br> okolici Zagreba za <span className="font-bold ">7105€</span>
           </h1>
         </motion.div>
 
@@ -34,7 +34,7 @@ const Hero = ({ onNavigate }) => {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="text-lg md:text-xl font-light mb-10 max-w-2xl mx-auto opacity-90 leading-relaxed text-stone-100"
         >
-          Projekt obnove drvene kuće za 7.000 € u okolici Zagreba. <br/> Prati naš put, kamen po kamen.
+          Pratite našu avanturu obnove, korak po korak. Od ruševine do doma iz snova.
         </motion.p>
 
         <motion.div
